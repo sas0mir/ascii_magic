@@ -1,0 +1,24 @@
+{
+  "name": "ascii-art",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/ascii-art.js",
+  "module": "./dist/ascii-art.js",
+  "types": "./dist/ascii-art.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/ascii-art.js",
+      "types": "./dist/ascii-art.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["ascii", "web-component", "typescript"],
+  "author": "Sas Mir",
+  "license": "MIT"
+}
