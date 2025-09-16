@@ -4,7 +4,6 @@ Usage:
 npm install react-ascii-art
 ```
 ```jsx
-import React from 'react';
 import AsciiArt from 'react-ascii-art';
 const App = () => (
   <div>
@@ -13,3 +12,10 @@ const App = () => (
   </div>
 );
 ```
+
+---
+
+📦 GitHub Repository  
+[https://github.com/sas0mir/ascii_magic](https://github.com/sas0mir/ascii_magic)
+
+Feel free to open issues, give feedback, and collaborate 🚀
