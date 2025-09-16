@@ -21,11 +21,14 @@ jobs:
 
       - name: Install deps
         run: npm install
+        working-directory: ./
 
       - name: Build
         run: npm run build
+        working-directory: ./
 
       - name: Publish to npm
         run: npm publish --access public
+        working-directory: ./
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
